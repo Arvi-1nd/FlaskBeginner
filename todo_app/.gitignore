@@ -1,0 +1,36 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# 🔒 Environment & Secrets
+.env
+instance/
+
+# 📦 Virtual Environment
+env/
+venv/
+
+# 🧪 Testing
+*.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# 🧠 IDE & Editor Configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖼️ OS & Misc
+.DS_Store
+Thumbs.db
+
+# 📄 Flask Migrations (optional)
+migrations/
